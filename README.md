@@ -1,69 +1,104 @@
-# 📊 HR Analytics Project (Employee Attrition Analysis)
+# HR Analytics Dashboard
 
-## 🎯 Objective
+## Project Overview
 
-The goal of this project is to analyze employee data to identify key factors contributing to employee attrition and provide actionable business insights.
-
----
-
-## 🛠 Tools Used
-
-* Python (Pandas, Matplotlib)
-* Jupyter Notebook
-* Power BI (for dashboard - in progress)
+This project analyzes employee data to uncover key insights related to attrition, employee demographics, and workforce trends.
+The dashboard is built using Power BI to support data-driven HR decisions and improve employee retention.
 
 ---
 
-## 📂 Dataset
+## Objectives
 
-* IBM HR Analytics Employee Attrition Dataset (Kaggle)
-
----
-
-## 🔧 Data Processing
-
-* Loaded dataset using Pandas
-* Checked for missing values and duplicates
-* Cleaned and transformed data
-* Converted categorical variables (Attrition) into numeric format
+* Analyze employee attrition patterns
+* Identify key factors affecting employee turnover
+* Understand workforce distribution across departments, roles, and demographics
+* Provide actionable insights for HR decision-making
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+## Tools & Technologies Used
 
-Performed analysis to understand employee behavior:
+* Power BI – Data Visualization and Dashboard Creation
+* Excel / CSV – Data Source
+* Power Query – Data Cleaning and Transformation
+* DAX – Measures and KPIs
 
-* Attrition rate analysis
-* Department-wise attrition
+---
+
+## Dashboard Features
+
+### HR Overview Dashboard
+
+* Total Employees: 1K
+* Attrition Rate: 16.12%
+* Attrition Count: 237
+* Average Salary: 6.50K
+* Analysis by:
+
+  * Age Group
+  * Department
+  * Job Satisfaction
+  * Gender Distribution
+
+---
+
+### Attrition Analysis
+
+* Department-wise attrition trends
+* Attrition by years at company
 * Job satisfaction impact on attrition
-* Salary comparison between employees who stayed vs left
-* Years at company vs attrition trends
+* Overtime vs attrition comparison
+* Job role-wise attrition breakdown
 
 ---
 
-## 🔍 Key Insights
+### Employee Demographics
 
-* Employees with lower salaries are more likely to leave the company
-* Sales department has the highest attrition rate
-* Employees with low job satisfaction show significantly higher attrition
-* Most employees leave within the first few years of joining
-
----
-
-## 📈 Project Status
-
-* ✅ Data Cleaning & EDA Completed
-* 🔄 Power BI Dashboard (In Progress)
+* Age distribution
+* Employee tenure distribution
+* Job role distribution
+* Education field analysis
+* Gender distribution
 
 ---
 
-## 🚀 Next Steps
+## Dashboard Preview
 
-* Build interactive dashboard in Power BI
-* Add forecasting and advanced insights
+### HR Overview
+
+![HR Overview](images/hr_overview.png)
+
+### Attrition Analysis
+
+![Attrition Analysis](images/attrition_analysis.png)
+
+### Employee Demographics
+
+![Employee Demographics](images/employee_demographics.png)
 
 ---
 
-## 📌 Author
+## Key Insights
 
-* [Nainesh Shirsath]
+* Higher attrition observed in younger employees
+* Low job satisfaction strongly correlates with higher attrition
+* Employees working overtime show higher exit rates
+* Certain departments show consistently higher attrition trends
+* Workforce is concentrated in mid-age and mid-tenure groups
+
+---
+
+## How to Use
+
+1. Download the `.pbix` file
+2. Open using Power BI Desktop
+3. Use filters and slicers to explore insights
+
+---
+
+## Dataset
+
+* Dataset included in the repository
+* Contains employee attributes such as age, department, salary, job role, and attrition status
+
+---
